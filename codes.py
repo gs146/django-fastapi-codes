@@ -11,7 +11,7 @@ app = FastAPI()
 def read_root():
     return {"message": "Hello Aliens!!"}
 
-#DOCUMENTATION
+#To access documentation
 from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
